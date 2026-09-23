@@ -1,0 +1,32 @@
+# Dependencias
+node_modules/
+
+# Build
+dist/
+build/
+*.tsbuildinfo
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Cobertura
+coverage/
+.nyc_output/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Temporales
+tmp/
+*.tmp

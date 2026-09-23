@@ -1,0 +1,19 @@
+{
+  "name": "smartpos-api",
+  "version": "1.0.0",
+  "description": "SmartPOS API - Punto de Venta Inteligente (REST + WebSocket)",
+  "main": "dist/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.3"
+  }
+}
